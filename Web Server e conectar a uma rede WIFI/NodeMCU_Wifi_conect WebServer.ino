@@ -1,3 +1,6 @@
+/*Codigo teste swe concta de forma manual a uma rede Wifi 
+e exibe a porta serial A0 */
+//bibliotecas nescessarias   
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
