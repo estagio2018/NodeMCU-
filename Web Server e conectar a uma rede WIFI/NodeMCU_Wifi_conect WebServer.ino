@@ -18,7 +18,7 @@ void handleRoot() {
 
   String textoHTML;
 
-  textoHTML = "Ola!! Aqui &eacute; o <b>ESP8266</b> falando! ";
+  textoHTML = "Ola!! danilo  Aqui &eacute; o <b>ESP8266</b> falando! ";
   textoHTML += "Porta A0: ";
   textoHTML += analogRead(A0);
    
