@@ -51,10 +51,10 @@ void setup(void){
   WiFi.begin(ssid, password);
   Serial.println("");
 
-  // Wait for connection
+  // Espera pela conexão
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
+    Serial.print("conectando... ");
   }
   Serial.println("");
   Serial.print("Connected to ");
